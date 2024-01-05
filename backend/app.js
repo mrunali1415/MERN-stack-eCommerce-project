@@ -1,5 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
+const cors = require('cors');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -10,6 +11,8 @@ const database = require('./config/database');
 const usersRouter = require('./routes/users');
 
 var app = express();
+// Allow all origins for simplicity (you might want to restrict it to your frontend's domain in production)
+app.use(cors());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

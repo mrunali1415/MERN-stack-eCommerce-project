@@ -1,0 +1,15 @@
+{
+  "name": "mern-stack-ecommerce-project",
+  "version": "1.0.0",
+  "description": "Welcome to our thriving E-commerce platform built on the powerful MERN stack! This repository houses the codebase for an innovative online shopping experience, designed to cater to modern consumer needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
