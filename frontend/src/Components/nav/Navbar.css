@@ -1,0 +1,47 @@
+.nav {
+  /* background-color: #ccc; */
+  display: flex;
+  justify-content: space-between;
+ 
+  gap: 6px;
+}
+.nav_logo {
+  font-size: 25px;
+  color: #fff;
+}
+.nav_items {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.nav_item {
+  /* display: flex; */
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: rgb(5, 5, 245);
+}
+
+.button-o {
+  background-color: navy;
+  display: flex;
+  color: white;
+  align-items: center;
+  border: 2px solid rgb(7, 7, 7);
+  padding: 6px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+}
+
+.button-o :hover {
+  background-color: white;
+  color: navy;
+}
+.button-o:active {
+  transform: scale(0.98);
+}

@@ -5,6 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('E:\tr\MERN stack\MERN stack eCommerce project\frontend\public\bg.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position:absolute;
+  height: 100vh;
+  
+  
+}
+.body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-out;
+}
+.home.show::before {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 code {
